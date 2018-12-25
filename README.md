@@ -9,7 +9,7 @@ smr-emulator-lib
 2. 验证PB是否为band journal? 需要在STL-emu层维护 fifo band map.
 
 依次写入 ：
-0 ~ 100M; 200 ~ 300M; 400~500M; 200~300M; --|-- 1G ~ +
+0 ~ 100M; 200 ~ 300M; 400 ~ 500M; 200 ~ 300M; --|-- 1G ~ +
 然后在1G ~ + 的过程中多次顺序读取 100 ~ 500M 
 观测read latency. 
 
